@@ -11,6 +11,44 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/services.dart';
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/bedroom_five.jpg
+  AssetGenImage get bedroomFive =>
+      const AssetGenImage('assets/images/bedroom_five.jpg');
+
+  /// File path: assets/images/bedroom_four.jpg
+  AssetGenImage get bedroomFour =>
+      const AssetGenImage('assets/images/bedroom_four.jpg');
+
+  /// File path: assets/images/bedroom_one.jpg
+  AssetGenImage get bedroomOne =>
+      const AssetGenImage('assets/images/bedroom_one.jpg');
+
+  /// File path: assets/images/bedroom_three.jpg
+  AssetGenImage get bedroomThree =>
+      const AssetGenImage('assets/images/bedroom_three.jpg');
+
+  /// File path: assets/images/bedroom_two.jpg
+  AssetGenImage get bedroomTwo =>
+      const AssetGenImage('assets/images/bedroom_two.jpg');
+
+  /// File path: assets/images/profile_avatar.jpeg
+  AssetGenImage get profileAvatar =>
+      const AssetGenImage('assets/images/profile_avatar.jpeg');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [
+        bedroomFive,
+        bedroomFour,
+        bedroomOne,
+        bedroomThree,
+        bedroomTwo,
+        profileAvatar
+      ];
+}
+
 class $AssetsSvgsGen {
   const $AssetsSvgsGen();
 
@@ -88,6 +126,7 @@ class $AssetsSvgsGen {
 class Assets {
   Assets._();
 
+  static const $AssetsImagesGen images = $AssetsImagesGen();
   static const $AssetsSvgsGen svgs = $AssetsSvgsGen();
 }
 
