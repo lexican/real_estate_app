@@ -16,7 +16,7 @@ class _TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<Offset> _slideAnimation;
 
-  int _currentIndex = 0;
+  int _currentIndex = 2;
 
   final List<Widget> _screens = const [
     Search(),

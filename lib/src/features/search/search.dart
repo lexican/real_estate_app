@@ -40,32 +40,32 @@ class _SearchState extends State<Search> {
       Marker(
         markerId: const MarkerId('marker_1'),
         position: const LatLng(6.493318598226593, 3.3474268249107566),
-        icon: await const CustomMarker(title: '10,3 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '3,2 mn P').toBitmapDescriptor(),
       ),
       Marker(
         markerId: const MarkerId('marker_2'),
         position: const LatLng(6.490461411231873, 3.3465462182232204),
-        icon: await const CustomMarker(title: '11 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '12 mn P').toBitmapDescriptor(),
       ),
       Marker(
         markerId: const MarkerId('marker_3'),
         position: const LatLng(6.494818140335928, 3.350137870510183),
-        icon: await const CustomMarker(title: '7,8 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '4,5 mn P').toBitmapDescriptor(),
       ),
       Marker(
         markerId: const MarkerId('marker_4'),
         position: const LatLng(6.497552979246254, 3.35136730450701),
-        icon: await const CustomMarker(title: '8,5 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '9.6 mn P').toBitmapDescriptor(),
       ),
       Marker(
         markerId: const MarkerId('marker_5'),
         position: const LatLng(6.4869146158885895, 3.34809470172761),
-        icon: await const CustomMarker(title: '13,3 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '12,2 mn P').toBitmapDescriptor(),
       ),
       Marker(
         markerId: const MarkerId('marker_6'),
         position: const LatLng(6.502124463963902, 3.3466128831291804),
-        icon: await const CustomMarker(title: '6,95 mn P').toBitmapDescriptor(),
+        icon: await const CustomMarker(title: '5,87 mn P').toBitmapDescriptor(),
       )
     });
   }
