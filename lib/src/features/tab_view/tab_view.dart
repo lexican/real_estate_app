@@ -17,7 +17,7 @@ class _TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
 
   int _currentIndex = 2;
 
-  List<Widget> _screens = const [
+  final List<Widget> _screens = const [
     SizedBox(),
     SizedBox(),
     Home(),
