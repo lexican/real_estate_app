@@ -1,16 +1,30 @@
 # real_estate_app
 
-A new Flutter project.
+A real estate app POC.
 
-## Getting Started
+This Real Estate app is built with Flutter.
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### Home Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src="screenshots/home.png" height="500em" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Search Screen
+
+<img src="screenshots/search.png" height="500em" />
+
+## ✨ Requirements
+
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter SDK installed (ie. Android Studio, VSCode, IntelliJ, etc)
+- A little knowledge of Dart and Flutter
+
+## Run Locally
+
+```bash
+  git clone https://github.com/lexican/real_estate_app.git
+  cd real_estate_app
+  flutter pub get
+  flutter run
+```
