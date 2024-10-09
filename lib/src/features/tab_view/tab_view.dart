@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:real_estate_app/src/core/app_colors.dart';
 import 'package:real_estate_app/src/features/home/home.dart';
+import 'package:real_estate_app/src/features/search/search.dart';
 import 'package:real_estate_app/src/features/tab_view/data/data.dart';
 import 'package:real_estate_app/src/features/tab_view/widgets/bottom_nav_item.dart';
 
@@ -15,10 +16,10 @@ class _TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<Offset> _slideAnimation;
 
-  int _currentIndex = 2;
+  int _currentIndex = 0;
 
   final List<Widget> _screens = const [
-    SizedBox(),
+    Search(),
     SizedBox(),
     Home(),
     SizedBox(),
