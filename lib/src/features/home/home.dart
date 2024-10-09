@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_estate_app/src/features/home/widgets/home_app_bar.dart';
+import 'package:real_estate_app/src/features/home/widgets/home_body.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -18,7 +19,7 @@ class Home extends StatelessWidget {
           )
         ];
       },
-      body: const SizedBox(),
+      body: const HomeBody(),
     );
   }
 }

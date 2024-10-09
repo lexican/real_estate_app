@@ -73,8 +73,6 @@ class _TabViewState extends State<TabView> with SingleTickerProviderStateMixin {
         height: size.height,
         child: Stack(
           children: [
-            //
-            //
             Positioned.fill(
               child: _screens[_currentIndex],
             ),
